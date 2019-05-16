@@ -1,0 +1,57 @@
+body{
+  margin: 0px;
+  text-align: center;
+  background: violet;
+  padding:5%;
+  color: #fff;
+}
+h1{
+  margin-top: 0px;
+  color:black;
+  font-family: cursive;
+}
+.main{
+  background: white;
+  padding: 4%;
+  padding-top:3%;
+  width: 45%;
+  margin: auto;
+  border-radius: 5px;
+}
+button{
+  padding: 20px;
+  background: linear-gradient(pink,purple);
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border:0.5px solid grey;
+  margin: 5px;
+  font-size: 18px;
+  color: #fff;
+  font-family: cursive;
+  transition: .1s all;
+}
+button:hover{
+  background: linear-gradient(purple,pink);
+  cursor: pointer;
+}
+button:active{
+  background: linear-gradient(purple,rgb(236, 94, 117));
+
+}
+.modals{
+  margin-top: 20px;
+  border:1px solid black;
+  border-radius: 5px;
+  padding: 40px;
+}
+.modal{
+  width: 40%;
+  border-radius:5px;
+  margin: 10px;
+  display: inline-block;
+  background: linear-gradient(skyblue,purple);
+  font-family: cursive;
+}
+.hide{
+  display: none;
+}
